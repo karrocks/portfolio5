@@ -29,7 +29,7 @@ a {
 
 
 #nav {
-    background: #E0FBFC;
+    background: #202022;
     position: relative;
     display: flex;
     padding: 1.5% 7.5%;
@@ -37,6 +37,7 @@ a {
     /* border: 2px solid red; */
     z-index: 400;
     align-items: center;
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.20);
 }
 
 #logo {
@@ -50,15 +51,16 @@ a {
     font-weight: 500;
     letter-spacing: 0.16rem;
     font-size: max(14px, 1.11vw);
-    color: #293241;
+    color: white;
     margin-bottom: 3%;
 }
 
 #logo p {
-    color: #4E5A66;
+    color: white;
     font-size: max(12px, 0.97vw);
     letter-spacing: 0.16rem;
     font-weight: 400;
+    opacity: 70%;
 }
 
 #links {
@@ -82,22 +84,25 @@ a {
     padding: 5% 0;
     /* border: 2px solid red; */
     font-size: 0.88rem;
-    color: #293241;
+    color: white;
     /* box-sizing: border-box; */
-    box-shadow: 0px 1px 0px #293241 inset;
+    box-shadow: 0px 1px 0px white inset;
     text-decoration: none;
+    opacity: 90%;
 
 }
 
 #links a:hover {
-    color: #3D5A80;
-    box-shadow: 0px 4px 0px #3D5A80 inset;
+    color: white;
+    box-shadow: 0px 4px 0px white inset;
+    opacity: 100%;
 
 }
 
 #links a[href="home2.html"] {
-    color: #3D5A80;
-    box-shadow: 0px 4px 0px #3D5A80 inset;
+    color: white;
+    box-shadow: 0px 4px 0px white inset;
+    opacity: 100%;
 }
 
 
@@ -113,7 +118,7 @@ a {
 
 #firstleft {
     width: 63%;
-    background-color: #98C1D9;
+    background-color: #4E69AF;
     padding: 19.6% 0%;
 }
 
@@ -134,7 +139,7 @@ a {
 
     position: absolute;
     width: 37%;
-    background-color: #E0FBFC;
+    background-color: #CAD2E7;
     margin-left: 45%;
     margin-top: 7.5%;
     z-index: 50;
@@ -211,7 +216,7 @@ a {
     font-weight: 400;
     font-size: max(14px, 1.68vw);
     line-height: max(16.8px, 2.01vw);
-    color: #293241;
+    color: #1F2A47;
 
 }
 
@@ -222,7 +227,7 @@ a {
     font-size: max(12px, 1.11vw);
     line-height: 1.25rem;
     padding-top: 2%;
-    color: #3D5A80;
+    color: rgba(31, 42, 71, 0.7);
 }
 
 .button1,
@@ -231,7 +236,7 @@ a {
     display: flex;
     padding: 2.5% 6%;
     border: none;
-    background-color: #4E4E4E;
+    background-color: #000000;
     border-radius: 2px;
     justify-content: center;
     align-items: center;
@@ -266,7 +271,7 @@ a {
 .button1:hover,
 .button2:hover,
 .button3:hover {
-    background-color: #575757;
+    background-color: #303030;
 }
 
 .button__text {
@@ -286,7 +291,7 @@ a {
     font-weight: 400;
     font-size: max(12px, 0.83vw);
     line-height: 150%;
-    color: rgba(41, 50, 65, 0.7);
+    color: rgba(0, 0, 0, 0.8);
     text-align: right;
     margin-left: 0%;
     margin-top: 10%;
@@ -312,7 +317,7 @@ a {
 
 #secondtop {
 
-    background-color: #C6CCD8;
+    background-color: #EE9A95;
     width: 100%;
     padding: 13% 0%;
 
@@ -320,7 +325,7 @@ a {
 }
 
 #secondbottom {
-    background-color: #98C1D9;
+    background-color: #F3E9E9;
     width: 100%;
     padding: 15% 0%;
 
@@ -362,7 +367,7 @@ a {
 #secondtitlebg {
     position: absolute;
     width: 40%;
-    background-color: #85A1C1;
+    background-color: #4F5560;
     /* background-color:red; */
     /* height: 35%; */
     margin-left: 15%;
@@ -453,7 +458,7 @@ a {
     font-weight: 400;
     font-size: max(14px, 1.68vw);
     line-height: max(16.8px, 2.01vw);
-    color: #293241;
+    color: #ffffff;
     white-space: nowrap;
 
 }
@@ -464,7 +469,7 @@ a {
     font-size: max(12px, 1.11vw);
     line-height: 1.25rem;
     padding-top: 2%;
-    color: #3D5A80;
+    color: rgba(239, 239, 239, 0.7);
 }
 
 .button2 {
@@ -472,6 +477,23 @@ a {
     margin-top: 13%;
     margin-bottom: 16%;
     opacity: 0%;
+    background-color: #ffffff;
+}
+
+.button2:hover{
+    background-color: #e1e1e1;
+}
+
+.buttonwhitetext {
+    color: black;
+    padding-right: 20%;
+    font-size: max(14px, 1.1vw);
+}
+
+.buttonwhiteicon {
+    color: black;
+    font-size: max(14px, 1.1vw);
+
 }
 
 .active.button2anim {
@@ -489,7 +511,7 @@ a {
     font-size: max(12px, 0.83vw);
     line-height: 150%;
     /* or 18px */
-    color: rgba(41, 50, 65, 0.7);
+    color: #000000;
     /* color: red; */
     text-align: right;
     /* margin-left: 0%; */
@@ -521,14 +543,14 @@ a {
 }
 
 #thirdtop {
-    background-color: #3D5A80;
+    background-color: #566FB6;
     width: 100%;
     padding: 17% 0%;
 
 }
 
 #thirdbottom {
-    background-color: #274B69;
+    background-color: #9BB0E6;
     width: 100%;
     padding: 11% 0%;
     padding-bottom: 5%;
@@ -589,7 +611,7 @@ a {
 #thirdtitlebg {
     position: absolute;
     width: 37%;
-    background-color: #E0FBFC;
+    background-color: #F3EDE9;
     /* height: 35%; */
     margin-left: 15%;
     margin-top: 8%;
@@ -655,7 +677,7 @@ a {
     font-weight: 400;
     font-size: max(14px, 1.68vw);
     line-height: max(16.8px, 2.01vw);
-    color: #293241;
+    color: #1F2947;
 }
 
 #third p {
@@ -664,7 +686,7 @@ a {
     font-size: max(12px, 1.11vw);
     line-height: 1.25rem;
     padding-top: 2%;
-    color: #3D5A80;
+    color: rgba(31, 41, 71, 0.7);
 }
 
 .button3 {
@@ -686,7 +708,7 @@ a {
     font-size: max(12px, 0.83vw);
     line-height: 150%;
     /* or 18px */
-    color: white;
+    color: rgba(31, 41, 71, 0.8);
     text-align: right;
     margin-right: 5%;
     margin-top: 6%;
@@ -713,7 +735,7 @@ a {
 }
 
 #fourleft {
-    background-color: white;
+    /* background-color: white; */
     width: 50%;
     text-align: center;
     margin-top: 8%;
@@ -730,7 +752,7 @@ a {
     font-size: max(20px, 2.63vw);
     line-height: max(24px, 3.19vw);
     text-align: center;
-    color: #3F4D63;
+    color: #743F3F;
     opacity: 0;
 
 }
@@ -777,7 +799,7 @@ a {
 
 
 #fourright {
-    background-color: #3F4D63;
+    background-color: #EE9A95;
     width: 50%;
     padding: 6% 8%;
     box-sizing: border-box;
@@ -789,7 +811,7 @@ a {
     font-weight: 400;
     font-size: max(14px, 1.68vw);
     line-height: max(16.8px, 2.01vw);
-    color: #F1F1F1;
+    color: #2C0907;
     text-align: left;
     opacity: 0;
 }
@@ -824,7 +846,7 @@ a {
     font-size: max(12px, 1.11vw);
     line-height: 1.25rem;
     padding-top: 2%;
-    color: #94B4DE;
+    color: rgba(44, 9, 7, 0.7);
     opacity: 0;
 
 }
@@ -842,7 +864,7 @@ a {
     display: flex;
     padding: 2.5% 5.9%;
     border: none;
-    background-color: #EBEBEB;
+    background-color: #1A1A1A;
     border-radius: 2px;
     justify-content: center;
     align-items: center;
@@ -862,18 +884,18 @@ a {
 }
 
 .button-light:hover {
-    background-color: #ffffff;
+    background-color: #303030;
 }
 
 .button-light .button__text-light {
-    color: #202022;
+    color: #ffffff;
     padding-right: 20%;
     font-size: max(14px, 1.1vw);
     font-weight: 500;
 }
 
 .button-light .button__icon-light {
-    color: #202022;
+    color: #ffffff;
     font-size: max(14px, 1.1vw);
 
 }
@@ -892,7 +914,7 @@ a {
     font-size: max(20px, 2.63vw);
     line-height: max(24px, 3.19vw);
     text-align: center;
-    color: #C6CCD8;
+    color: #ffffff;
 
 }
 
@@ -955,7 +977,7 @@ footer {
     }
 
     #links {
-        width: 58%;
+        width: 48%;
     }
 
     #first,
@@ -970,7 +992,7 @@ footer {
     #firstm {
         display: flex;
         flex-direction: column;
-        margin-bottom: 10%;
+        margin-bottom: 20%;
     }
 
     #firsttop {
@@ -1044,7 +1066,7 @@ footer {
     #secondm {
         display: flex;
         flex-direction: column;
-        margin-bottom: 10%;
+        margin-bottom: 20%;
     }
 
     #secondmtop {
@@ -1119,7 +1141,7 @@ footer {
     #thirdm {
         display: flex;
         flex-direction: column;
-        margin-bottom: 10%;
+        margin-bottom: 20%;
     }
 
     #thirdmtop {
@@ -1207,7 +1229,7 @@ footer {
     #fourm {
         display: flex;
         flex-direction: column;
-        margin-bottom: 10%;
+        margin-bottom:10%;
     }
 
     #fourmtop {
@@ -1325,11 +1347,11 @@ footer {
     #footerright {
         display: flex;
         justify-content: space-between;
-        width: 30%;
+        width: 40%;
     }
     
     #footerright i {
-        font-size: 20px;
+        font-size: 25px;
         color: white;
     }
     
