@@ -11,11 +11,9 @@ a {
     /* display: inline; */
 }
 
-.js-loading *,
-.js-loading *:before,
-.js-loading *:after {
-  animation-play-state: paused !important;
-}
+
+
+
 
 
 #container {
@@ -99,7 +97,7 @@ a {
 
 }
 
-#links a[href="home2.html"] {
+#links a[href="#"] {
     color: white;
     box-shadow: 0px 4px 0px white inset;
     opacity: 100%;
@@ -155,6 +153,7 @@ a {
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
     opacity: 0%;
+    animation-play-state: paused;
 }
 
 @keyframes anim1 {
@@ -196,6 +195,7 @@ a {
     animation-fill-mode: forwards;
     opacity: 0%;
     animation-timing-function: ease-in-out;
+    animation-play-state: paused ;
 }
 
 @keyframes anim2 {
@@ -255,6 +255,7 @@ a {
     animation-fill-mode: forwards;
     animation-timing-function: ease-out;
     opacity: 0%;
+    animation-play-state: paused ;
 }
 
 @keyframes anim3 {
@@ -301,6 +302,7 @@ a {
     animation-delay: 1.4s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-out;
+    animation-play-state: paused ;
     opacity: 0%;
 
 }
@@ -348,6 +350,7 @@ a {
     animation-fill-mode: forwards;
     animation-duration: 1s;
     animation-timing-function: ease-out;
+    animation-play-state: paused ;
 
 }
 
@@ -396,6 +399,7 @@ a {
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
     opacity: 0%;
+    animation-play-state: paused ;
 
 }
 
@@ -438,6 +442,7 @@ a {
     animation-fill-mode: forwards;
     animation-duration: 1s;
     animation-timing-function: ease-out;
+    animation-play-state: paused;
 
 }
 
@@ -503,6 +508,7 @@ a {
     animation-fill-mode: forwards;
     animation-timing-function: ease-out;
     opacity: 0%;
+    animation-play-state: paused ;
 }
 
 .secondmore {
@@ -527,6 +533,7 @@ a {
     animation-fill-mode: forwards;
     animation-timing-function: ease-out;
     opacity: 0%;
+    animation-play-state: paused ;
 }
 
 /* Third Section --------------- */
