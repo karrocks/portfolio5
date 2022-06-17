@@ -27,3 +27,4 @@ function startAnimation() {
   document.querySelector('.animsecondmore').style.animationPlayState = 'running';
 }
 window.addEventListener('load', startAnimation);
+

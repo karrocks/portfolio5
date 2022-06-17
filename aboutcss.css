@@ -27,7 +27,7 @@ body {
     display: flex;
     flex-flow: column;
     /* border: 3px solid green; */
-    
+
     /* display: none; */
 }
 
@@ -327,7 +327,7 @@ form textarea {
     color: #1F2A47;
 }
 
-.button1{
+.button1 {
     display: flex;
     padding: 3% 6%;
     border: none;
@@ -374,31 +374,245 @@ form textarea {
 
 
 
-    /* Foooter------------------------ */
+/* Foooter------------------------ */
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1.5% 8%;
+    background: #202022;
+}
+
+#footerleft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.8rem;
+}
+
+#footerright {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+}
+
+#footerright i {
+    font-size: max(16px, 2.22vw);
+    color: white;
+}
+
+@media only screen and (min-width: 501px){
+    #aboutm, #followm, #formgrpm, #footerm{
+        display: none;
+    }
+}
+
+
+
+/* Media queries----------------------------------------- */
+@media only screen and (max-width: 500px) {
+
+    #about,
+    #contact,
     footer {
+        display: none;
+    }
+
+    body {
+        background-color: #F2F2F2;
+    }
+
+    #nav {
+        padding: 5.9% 18px;
+    }
+
+
+
+    #logo h3 {
+        letter-spacing: 0.14rem;
+    }
+
+    #links {
+        width: 48%;
+    }
+
+
+    /* About Mobile-------------------------- */
+
+
+    #aboutm {
+        width: 100%;
+        background: #EE9A95;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        margin-top: 10.7%;
+        /* padding-left: 5.35%;
+        padding-right: 5.35%; */
+        padding-top: 6.4%;
+        margin-bottom: 10.7%;
+        padding-bottom: 10.7%;
+    }
+
+    #aboutm h3 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: #58120E;
+        margin-bottom: 5.35%;
+        margin-left: 5.35%;
+    }
+
+    #aboutm img{
+        width:100%;
+        margin-bottom: 6.4%;
+    }
+
+    #aboutm p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        color: #ffffff;
+        margin-bottom: 3%;
+        margin-left: 5.35%;
+        margin-right: 5.35%;
+    }
+
+    /* follow mobile-------------------------------------------------- */
+    #followm {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        /* justify-content: center; */
+        background: #4E69AF;
+        align-items: center;
+        padding-top: 15%;
+        padding-bottom: 37.5%;
+        box-sizing: border-box;
+        margin-bottom: 14%;
+    }
+
+    #followm ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    #followm ul li {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #ffffff;
+        margin-bottom: 10%;
+        padding-bottom: 3px;
+    }
+    
+    #followm ul li a {
+        display: block;
+        position: relative;
+        padding: 0.2em 0;
+        overflow: hidden;
+    }
+
+    #formgrpm {
+        /* border: 2px solid red; */
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 8.6%;
+        padding-right: 8.6%;
+    }
+    
+    #formgrpm h3 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: #1F2A47;
+        margin-bottom: 6.5%;
+    }
+    
+    #formgrpm p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: rgba(31, 42, 71, 0.7);
+        margin-right: 7%;
+        margin-bottom: 11.6%;
+    }
+
+    #formgrpm form input, #formgrpm form textarea{
+        margin-bottom: 7.7%;
+    }
+
+    .button1m {
+        display: flex;
+        padding: 3% 6%;
+        border: none;
+        background-color: #000000;
+        border-radius: 2px;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 12%;
+        margin-bottom: 4%; */
+        cursor: pointer;
+        flex-direction: row;
+        box-sizing: border-box;
+        
+        min-width: min-content;
+        margin-bottom: 10%;
+    }
+    
+    /* .button1:hover{
+        background-color: #303030;
+    } */
+    
+    .button__text {
+        color: white;
+        font-size: 14px;
+    }
+
+    /* Foooter mobile----------------------- */
+    #footerm {
         display: flex;
         justify-content: space-between;
         width: 100%;
         box-sizing: border-box;
-        padding: 1.5% 8%;
+        padding: 4% 18px;
         background: #202022;
+        margin-top: 4%;
     }
-
+    
     #footerleft {
         display: flex;
         justify-content: center;
         align-items: center;
         color: white;
-        font-size: 0.8rem;
+        font-size: 12px;
     }
-
+    
     #footerright {
         display: flex;
         justify-content: space-between;
-        width: 15%;
+        width: 40%;
     }
-
+    
     #footerright i {
-        font-size: max(16px, 2.22vw);
+        font-size: 25px;
         color: white;
     }
+    
+
+
+
+    
+}

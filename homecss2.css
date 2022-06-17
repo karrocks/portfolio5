@@ -16,6 +16,7 @@ a {
 
 
 
+
 #container {
     margin: 0px;
     padding: 0px;
@@ -277,7 +278,7 @@ a {
 
 .button__text {
     color: white;
-    padding-right: 20%;
+    padding-right: 18%;
     font-size: max(14px, 1.1vw);
 }
 
@@ -491,7 +492,7 @@ a {
 
 .buttonwhitetext {
     color: black;
-    padding-right: 20%;
+    padding-right: 18%;
     font-size: max(14px, 1.1vw);
 }
 
@@ -1004,9 +1005,9 @@ footer {
 
     #firsttop {
         background-color: #4E69AF;
-        padding-top: 4.3%;
+        padding-top: 6%;
         padding-left: 8.6%;
-        padding-bottom: 48%;
+        padding-bottom: 55%;
     }
 
     #firsttop h5 {
@@ -1026,10 +1027,6 @@ footer {
         color: rgba(255, 255, 255, 0.7);
     }
 
-    #firstmim{
-        border: 2px solid red;
-        
-    }
     #firstmimg  {
         width: 100%;
         display: flex;
@@ -1037,14 +1034,14 @@ footer {
         align-items: center;
         /* border: 2px solid green; */
         position: absolute;
-        margin-top: 21.5%;
+        margin-top: 26%;
     }
 
     #firstmimg a{
         /* display: none; */
         /* border: 2px solid red; */
         /* text-align: center; */
-        width: 68.3%;
+        width:78%;
     }
 
     #firstm img {
@@ -1053,7 +1050,7 @@ footer {
     }
 
     #firstbottom {
-        padding-top: 21.5%;
+        padding-top: 28.5%;
         padding-left: 8.6%;
         padding-bottom: 5.1%;
         background: #CAD2E7;
