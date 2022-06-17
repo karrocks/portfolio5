@@ -570,6 +570,7 @@ footer {
         
         min-width: min-content;
         margin-bottom: 10%;
+        height: 40px;
     }
     
     /* .button1:hover{
